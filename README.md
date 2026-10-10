@@ -30,18 +30,18 @@ This project covers the five scenarios requested in the QA Automation take-home 
 
 ```text
 qa-automation-assignment/
-├── tests/
-│   ├── ui/
-│   │   ├── login.spec.ts
-│   │   └── cart.spec.ts
-│   └── api/
-│       └── users.spec.ts
-├── .env.example
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── playwright.config.ts
-└── README.md
+|-- tests/
+|   |-- ui/
+|   |   |-- login.spec.ts
+|   |   `-- cart.spec.ts
+|   `-- api/
+|       `-- users.spec.ts
+|-- .env.example
+|-- .gitignore
+|-- package.json
+|-- package-lock.json
+|-- playwright.config.ts
+`-- README.md
 ```
 
 ## Prerequisites
@@ -55,7 +55,7 @@ qa-automation-assignment/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/qa-automation-assignment.git
+git clone https://github.com/anushacvreddy/qa-automation-assignment.git
 cd qa-automation-assignment
 npm install
 npx playwright install chromium
@@ -100,7 +100,7 @@ All five required tests passed when run together locally.
 ## Implementation Notes
 
 - Used Playwright's `page` fixture for browser tests and `request` fixture for API tests.
-- Used accessible or test-specific locators where appropriate.
+- Used test-specific locators where appropriate.
 - Configured Chromium as the test browser.
 - Added assertions for UI elements, HTTP status codes, and response data.
 - Loaded the ReqRes API key from a local `.env` file instead of hardcoding it in the tests.
@@ -110,4 +110,5 @@ All five required tests passed when run together locally.
 I used the Playwright documentation and AI assistance while learning how to set up the project, use locators and assertions, send API requests, and manage environment variables. I ran the tests locally and checked that all five required scenarios passed. This assignment helped me understand the basics of UI and API automation using Playwright. With more time, I would add the optional scenarios and explore ways to reduce repeated login steps.
 
 ## Author
+
 Cv Anusha Reddy

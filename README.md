@@ -107,7 +107,9 @@ All five required tests passed when run together locally.
 
 ## Learning and AI Assistance
 
-I used the Playwright documentation and AI assistance while learning how to set up the project, use locators and assertions, send API requests, and manage environment variables. I ran the tests locally and checked that all five required scenarios passed. This assignment helped me understand the basics of UI and API automation using Playwright. With more time, I would add the optional scenarios and explore ways to reduce repeated login steps.
+## AI Assistance
+
+Used ChatGPT (OpenAI) and Playwright documentation to support test development, understand TypeScript, and troubleshoot implementation issues. Reviewed the suggested code and ran all five required test scenarios locally. This assignment strengthened my understanding of UI and API automation, and I plan to explore additional test scenarios and reusable components as future improvements.
 
 ## Author
 
